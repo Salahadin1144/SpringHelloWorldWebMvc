@@ -27,6 +27,8 @@ import org.springframework.web.bind.support.SessionStatus;
 @RequestMapping("/employee-module/addNew")
 @SessionAttributes("employee")
 public class HomeController {
+	
+	// comment added
 
 	@Autowired
 	EmployeeManager manager;
